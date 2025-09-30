@@ -1,0 +1,27 @@
+1. Class Design
+Base Class: Account
+
+Properties: accountNumber, balance
+
+Methods: deposit($amount), withdraw($amount), getBalance()
+
+Child Classes:
+
+SavingsAccount
+
+Special Rule: একবারে withdraw করতে পারবে max 20,000 টাকা।
+
+CurrentAccount
+
+Special Rule: overdraft allow করবে (balance negative হতে পারবে, যেমন –5000 পর্যন্ত)।
+
+
+Expected Output (Example Scenario)
+
+Savings Account Balance: 15000
+Withdraw 18000 → Success
+Withdraw 25000 → Error: Exceeds withdraw limit
+
+Current Account Balance: 5000
+Withdraw 8000 → Success (Balance = -3000)
+Withdraw 7000 → Error: Overdraft limit exceeded
