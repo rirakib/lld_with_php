@@ -18,9 +18,9 @@ Each folder contains a separate exercise with its own **README.md**, code, and e
 
 | Folder | Description |
 |--------|-------------|
-| [problem1](bank_account/README.md) | Bank Accounts: Base Account class, SavingsAccount & CurrentAccount, withdraw & deposit rules |
-| [problem2](employee_salary/README.md) | Employee Salary: FullTime, PartTime, Intern, calculateSalary, getDetails |
-| [problem3](company_payroll_and_account_system/README.md) | Payroll System: Employee salary transfer to Account, bonus logic, withdraw rules, reporting |
+| [bank_account](bank_account/README.md) | Bank Accounts: Base Account class, SavingsAccount & CurrentAccount, withdraw & deposit rules |
+| [employee_salary](employee_salary/README.md) | Employee Salary: FullTime, PartTime, Intern, calculateSalary, getDetails |
+| [company_payroll_and_account_system](company_payroll_and_account_system/README.md) | Payroll System: Employee salary transfer to Account, bonus logic, withdraw rules, reporting |
 
 ---
 
