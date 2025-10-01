@@ -1,0 +1,66 @@
+একটা company আছে যেখানে employees ও department accounts আছে।
+
+Employees salary পাই, accounts এ deposit হয়।
+
+Employees হতে পারে FullTime, PartTime, Intern (previous lessons এ যেমন implement করেছো)।
+
+Accounts হতে পারে SavingsAccount ও CurrentAccount (BankAccount এর previous exercise অনুযায়ী)।
+
+Requirements:
+
+Employee salary transfer to Account
+
+FullTime / PartTime / Intern → calculateSalary() করবে।
+
+Salary automatically deposit হবে employee এর linked Account এ।
+
+Account Rules
+
+SavingsAccount: max withdraw per transaction = 20,000
+
+CurrentAccount: overdraft allowed = -5000
+
+Bonus / Deduction Rules (Advanced)
+
+FullTime: +10% bonus if salary > 50,000
+
+PartTime: no bonus
+
+Intern: stipend fixed, no bonus
+
+Reporting
+
+List all employees → show their salary, account balance, account type
+
+Try a withdraw → show success/error
+
+Expected Output Example
+Employee: Rakib (FullTime)
+Salary: 66000 (including bonus)
+Account Type: Savings
+Balance: 66000
+Withdraw 15000 → Success
+Withdraw 25000 → Error: Exceeds withdraw limit
+
+Employee: Riyad (PartTime)
+Salary: 12000
+Account Type: Current
+Balance: 12000
+Withdraw 14000 → Error: Overdraft limit exceeded
+
+Employee: Nayeem (Intern)
+Stipend: 8000
+Account Type: Savings
+Balance: 8000
+Withdraw 5000 → Success
+
+
+💡 Challenge:
+
+এবার তুমি Employee + Account class combine করবে।
+
+Salary calculation + bonus logic implement করবে।
+
+Deposit automatically হবে employee account এ।
+
+Withdraw rules enforce হবে।
