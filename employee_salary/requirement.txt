@@ -1,0 +1,35 @@
+Base Class: Employee
+
+Properties: id, name, salary
+
+Methods:
+
+getDetails() → Employee details return করবে
+
+calculateSalary() → salary calculation করবে (default salary return করবে)
+
+Child Classes:
+1. FullTimeEmployee
+
+Fixed monthly salary থাকবে।
+
+calculateSalary() → শুধু base salary return করবে।
+
+2. PartTimeEmployee
+
+Hourly wage × worked hours হিসেব করে salary বের হবে।
+
+Extra property: hourlyRate, hoursWorked
+
+3. Intern
+
+Intern এর salary fixed হবে না, শুধু stipend থাকবে।
+
+Extra property: stipend
+
+calculateSalary() → stipend return করবে।
+
+Expected Output (Example Scenario)
+Full Time Employee: Name = Rakib, Salary = 50000
+Part Time Employee: Name = Jamil, Salary = 12000
+Intern: Name = Nayeem, Stipend = 8000
